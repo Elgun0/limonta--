@@ -1,0 +1,235 @@
+#header{
+    .top-navbar{
+        text-align: center;
+        color: #fff;
+        .local{
+            padding: 20px 0;
+            background: black;
+        }
+        .icon{
+            background: #3c424c;
+            padding: 20px 0;
+            i{
+                padding: 0 20px;
+                transition: .3s;
+                &:hover{
+                    color: goldenrod;
+                    cursor: pointer;
+                }
+            }
+        }
+        .account{
+            padding: 12px 0;
+            background: black;
+        }
+    }
+    // ***
+    .middle-navbar{
+        padding: 20px 5px;
+        .logo{
+            padding: 0 20px;
+        }
+        .menu{
+            padding: 15px 0;
+            a{
+                text-decoration: none;
+                color: #000;
+                transition: .3s;
+                &:hover{
+                    color: goldenrod;
+                }
+            }
+        }
+        .cart{
+            padding: 15px 0;
+            text-align: center;
+            .i2{
+                padding: 0 10px;
+            }
+        }
+        .l{
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+            position: relative;
+            &::after{
+                position: absolute;
+                content: '';
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background: goldenrod;
+                left: 20%;
+                top: 75%;
+            }
+        }
+    }
+}
+// Header end
+// Suits start
+#suit{
+    padding: 40px 0;
+    background: url(../photo/slider1-1.jpg);
+    .man{
+        padding: 150px 0;
+        h1{
+            font-size: 60px;
+            color: goldenrod;
+        }
+        span{
+            font-size: 120px;
+            color: #fff;
+        }
+        p{
+            font-style: italic;
+            color: #fff;
+            margin-bottom: 30px;
+        }
+        button{
+            padding: 12px 60px;
+            background: goldenrod;
+            color: #fff;
+            font-size: 15px;
+            border: none;
+            transition: .3s;
+            &:hover{
+                background: #fff;
+                color: #000;
+            }
+        }
+    }
+}
+
+// Suits end
+// Discover start
+#discover{
+    padding: 60px 0;
+    .tx{
+        h1{
+            margin-bottom: 30px;
+        }
+        span{
+            color: goldenrod;
+        }
+        p{
+            color: grey;
+            line-height: 1.8;
+        }
+    }
+    .bt{
+        padding: 80px 40px;
+        button{
+            padding: 15px 60px;
+            background: goldenrod;
+            color: #fff;
+            font-size: 15px;
+            border: none;
+            transition: .3s;
+            &:hover{
+                background: rgb(129, 95, 10);
+            }
+        }
+    }
+}
+// Discover end
+// Idea start
+#idea{
+    height: 40vh;
+}
+// Idea end
+// Brown start
+#brown{
+    padding: 40px 0;
+    h2{
+        padding: 20px 20px;
+    }
+    .item{
+        .col-img{
+            position: relative;
+            overflow: hidden;
+            &:hover{
+                .img2{
+                    left: 0;
+                    visibility: visible;
+                }
+            }
+            .img2{
+                position: absolute;
+                top: 0;
+                left: 100%;
+                width: 100%;
+                height: 100%;
+                visibility: hidden;
+                transition: .4s;
+            }
+        }
+        .col-text{
+            text-align: center;
+        }
+    }
+}
+// Brown end 
+// Story start
+#story{
+    margin: 60px 0;
+    background: rgb(222, 236, 236);
+    .text-1{
+        padding: 80px;
+        h4{
+            padding-left: 20px;
+        }
+        p{
+            font-style: italic;
+            color: rgb(190, 35, 35);
+            padding-left: 20px;
+        }
+        span{
+            line-height: 1.8;
+        }
+        button{
+            margin-top: 20px;
+            padding: 15px 60px;
+            background: goldenrod;
+            color: #fff;
+            font-size: 15px;
+            border: none;
+            transition: .3s;
+            &:hover{
+                background: rgb(129, 95, 10);
+            }
+        }
+    }
+    .text-2{
+        height: 350px;
+        padding: 80px;
+        p{
+            line-height: 1.8;
+        }
+        button{
+            margin-top: 20px;
+            padding: 15px 60px;
+            background: goldenrod;
+            color: #fff;
+            font-size: 15px;
+            border: none;
+            transition: .3s;
+            &:hover{
+                background: rgb(129, 95, 10);
+            }
+        }
+    }
+}
+// Story end
+// Napoli start
+#napoli{
+    padding: 80px 0;
+    .container{
+        background: rgb(222, 236, 236);
+        padding: 80px;
+    }
+    p{
+        line-height: 2;
+        color: grey;
+    }
+}
+// Napoli end
+// Sale start
